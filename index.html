@@ -6,11 +6,15 @@
    <!--It will help us to make our website responsive-->
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <!-- *********** -->
+
+<!-- ********* -->
    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
 </head>
 <body>
    <section class="header">
@@ -19,11 +23,11 @@
          <div class="nav-links" id="navLinks">
             <ul>
                <li><a href="">HOME</a></li>
-               <li><a href="">ABOUT US</a></li>
-               <li><a href="">Scholorship</a></li>
-               <li><a href="">Health</a></li>
+               <li><a href="#about1">ABOUT US</a></li>
+               <li><a href="">SCHOLARSHIP</a></li>
+               <li><a href="">HEALTH</a></li>
                <li><a href="">BLOG </a></li>
-               <li><a href="">CONTACT US</a></li>
+               <li><a href="#contact">CONTACT US</a></li>
             </ul>
          </div>
 
@@ -35,29 +39,45 @@
          <h1>We are Helping</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita cum distinctio.
          </p>
+         <!-- ************ -->
          <a href="" class="hero-btn">Login</a>
+         <!-- *********************** -->
+            
+         <!-- ************* -->
       </div>
    </section>
 
 
 <!--Our Programs-->
+
+<section class="about">
+   <h1 id="about1" class="headings">About Us</h1>
+   <p class="quote">"Feminism isn't about making women stronger. <br>Women are already strong, it's about changing the way the world perceives that strength."<br>
+      G.D. Anderson</p>
+
+   <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quisquam, eum veniam id nulla deserunt! Iusto, molestias perspiciatis. Dolorum nihil voluptatem et voluptas ipsum dicta rem animi non eaque laboriosam.</p><br><br>
+
+
+
+   </section>
+
 <section class="program">
-   <h1>Our Initiatives</h1>
+   <h1 class="headings">Our Initiatives</h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptas vel obcaecati ducimus tenetur beatae architecto laboriosam quasi autem, at, officiis possimus rem.</p>
    <br>
    <div class="row ">
       <div class="program-col">
-      <img src="health.jpg" alt="">
+      <img  class="image" src="health.jpg" alt="">
          <h3>Women's Health</h3>
       </div>
 
       <div class="program-col">
-         <img src="edu.jpg" alt="">
+         <img class="image" src="edu.jpg" alt="">
             <h3>Women's Education</h3>
          </div>
 
          <div class="program-col">
-            <img src="help.jpg" alt="">
+            <img class="image" src="help.jpg" alt="">
                <h3>Women's Empowerment</h3>
             </div>
    </div>
@@ -67,7 +87,7 @@
 <br>
 <br>
 <section id="contact">
-    <h1 class="h-primary center">Contact Us</h1>
+    <h1 id="contact" class="h-primary center">Contact Us</h1>
 <div id="contact-box">
     <form action="">
         <div class="form-group">
